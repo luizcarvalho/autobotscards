@@ -1,10 +1,10 @@
 {
-  "expo": {
-    "name": "cartas",
-    "slug": "cartas",
-    "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
-  }
+    "expo": {
+        "name": "Cartas dos Autobots",
+        "slug": "cartas",
+        "version": "1.0.0",
+        "assetBundlePatterns": [
+            "**/*"
+        ]
+    }
 }
