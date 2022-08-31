@@ -4,10 +4,19 @@ import Carta from './src/telas/carta';
 
 export default function App() {
     return (
-        <View>
+        <View style={styles.body}>
             <StatusBar/>
             <Carta/>
             <StatusBar style="auto" />
         </View>
     );
 }
+
+
+const styles = StyleSheet.create({
+    body: {
+      backgroundColor: 'red',
+    }
+  });
+
+
