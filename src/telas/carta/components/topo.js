@@ -12,16 +12,8 @@ export default function Topo() {
 
 const estilos = StyleSheet.create({
     topo: {
+        alignContent: 'center',
         width: '100%',
-        height: 578 / 765 * width
-    },
-    mensagem: {
-        fontSize: 22,
-        lineHeight: 26,
-        padding: 20,
-        paddingVertical: 80,
-        fontWeight: 'bold',
-        textAlign: 'center'
-
+        height: 222 / 444 * width
     }
 })

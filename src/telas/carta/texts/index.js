@@ -1,4 +1,16 @@
 const Texts = {
+    direita: [
+        'pra_direita - a',
+        'pra_direita - b',
+        'pra_direita - c',
+        'pra_direita - d',
+    ],
+    esqueda: [
+        'pra_esqueda - a',
+        'pra_esqueda - b',
+        'pra_esqueda - c',
+        'pra_esqueda - d',
+    ],
     aquecimento: [
         'nivel1 - a',
         'nivel1 - b',
