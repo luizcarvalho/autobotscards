@@ -1,10 +1,16 @@
 {
-    "expo": {
-        "name": "Cartas dos Autobots",
-        "slug": "cartas",
-        "version": "1.0.0",
-        "assetBundlePatterns": [
-            "**/*"
-        ]
+  "expo": {
+    "name": "Cartas dos Autobots",
+    "slug": "autobots-cards",
+    "owner": "luizcarvalho",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "0b1cd02a-4cc0-4c65-b141-2f956e6289b3"
+      }
     }
+  }
 }

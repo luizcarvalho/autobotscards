@@ -12,7 +12,7 @@ const autobots = Texts.autobots.sort(() => Math.random() - 0.5);
 const phase2 = hot.concat(autobots).sort(() => Math.random() - 0.5);
 const direita = Texts.direita.sort(() => Math.random() - 0.5);
 const esquerda = Texts.esqueda.sort(() => Math.random() - 0.5);
-const center = direita.concat(esquerda)
+const center = Texts.centro.concat(direita, esquerda).sort(() => Math.random() - 0.5);
 
 function getMessage(direction) {
   if (direction == 'direita') {
@@ -138,13 +138,11 @@ const styles = StyleSheet.create({
     height: 100,
     width: '25%',
     margin: 15,
-    backgroundColor: 'black'
   },
   text: {
     textAlign: 'center',
     padding: 20,
     fontSize: 22,
-    lineHeight: 22,
     fontWeight: 'bold',
     letterSpacing: 0.25,
     color: 'white',
